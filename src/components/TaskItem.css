@@ -1,0 +1,39 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--bg-secondary);
+    border-radius: 4px;
+  }
+  
+  .task-item.completed .task-text {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin: 0 10px;
+  }
+  
+  .task-tags {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .tag {
+    padding: 2px 6px;
+    font-size: 0.8em;
+    background-color: var(--accent-light);
+    border-radius: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
